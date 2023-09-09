@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const currentMinutes = currentDate.getUTCMinutes();
         const currentSeconds = currentDate.getUTCSeconds();
 
-        document.getElementById("currentTime").textContent = `Current Time (Local): ${currentDate.toLocaleTimeString()}`;
         document.getElementById("utcTime").textContent = `UTC Time (ms): ${currentUTC.getTime()}`;
     }
 
